@@ -506,6 +506,93 @@ body {
         background: #9d0208;
     }
 }
+
+.title3 h1{
+    text-align: center;
+    color: #1AAA8C;
+    padding-top: 50px;
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title3 h1::after{
+    content: "";
+    height: 4px;
+    width: 230px;
+    background-color: #138e77;
+    display: block;
+    margin: auto;
+}
+.servicesour{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px auto;
+    text-align: center;
+}
+.cardser{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 20px 20px;
+    background-color: #1AAA8C;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.servicesour :hover{
+    background-color: #34cdab;
+    transition: 0.4s ease;
+}
+
+.cardser .icon{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.cardser h2{
+    font-size: 30px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+
+.cardser p{
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #FFF;
+}
+
+.btnserv{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #9df2da;
+    padding: 8px 12px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.btnserv:hover{
+    background-color: #138e77;
+    transition: 0.4s ease;
+}
+
+@media screen and (max-width: 940px) {
+    .servicesour{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardser{
+        width: 85%;
+        display: flex;
+        margin: 20px 0;
+    }
+}
 /* Testimony */
 
 .testimony{
